@@ -48,7 +48,7 @@ As part of the preliminary analysis, this project aims to:
 
 
 ## Project Workflow
-The implementation follows a structured pipeline. Classification and extraction are mplemented using the LangChain framework with `Qwen2.5-7B-Instruct-1M` as the base LLM.
+The implementation follows a structured pipeline. Classification and extraction are implemented using the LangChain framework with `Qwen2.5-7B-Instruct-1M` as the base LLM.
 
 1. **Data Preprocessing** (`notebook/1_data_preprocessing.ipynb`):
    - Cleans and preprocesses text data for classification
@@ -77,7 +77,7 @@ The implementation follows a structured pipeline. Classification and extraction 
     - The resulting fine-tuned model requires significantly fewer computational resources while maintaining classification accuracy, enabling faster and more cost-effective processing of large article corpora.
 
 ## Future Work
-Building upon the current progress of classifying and extracting information from approximately 2,000 articles out of 10,000 from 2008, there are several key areas for future development and expansion of this project:
+Building upon the current progress of classifying and extracting information from 2,081 articles out of 10,218 from 2008, there are several key areas for future development and expansion of this project:
 
 1. Comprehensive Dataset Processing (2002-2023):
     - Extend the existing pipeline to process the full range of articles from 2002 to 2023
@@ -100,5 +100,3 @@ Building upon the current progress of classifying and extracting information fro
 
 ## Pre-Trained Models
 The fine-tuned ConfliBERT model for MIC classification is available in this [Google Drive folder](https://drive.google.com/drive/folders/1bT7poiVpLbPI_pESWDQrtJ2f_GC2o11Q?usp=sharing)
-
----
