@@ -96,7 +96,9 @@ Building upon the current progress of classifying and extracting information fro
 ## How to Run
 1. Clone the repository
 2. Install dependencies: `pip install -r requirements.txt`
-3. Run the notebooks sequentially for classification and details extraction
+3. Install **LM Studio** and download the `Qwen2.5-7B-Instruct-1M` model.
+4. Start the LM Studio server and ensure it is running.
+5. Run the notebooks sequentially for classification and details extraction.
 
 ## Pre-Trained Models
 The fine-tuned ConfliBERT model for MIC classification is available in this [Google Drive folder](https://drive.google.com/drive/folders/1bT7poiVpLbPI_pESWDQrtJ2f_GC2o11Q?usp=sharing)
