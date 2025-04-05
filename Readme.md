@@ -76,7 +76,7 @@ The implementation follows a structured pipeline. Classification and extraction 
 5. **CLI Tool** (`src/main.py`):
    - Provides a command-line interface for running the unified pipeline
    - Supports preprocessing, classification, and extraction in a single workflow
-   - Allows users to specify the Hugging Face model or use LM Studio as the default LLM
+   - Allows users to specify the Hugging Face model or use LM Studio as the default LLM backend
    - Automatically handles recursive processing of nested directories while preserving the original directory structure
    - Offers configurable batch size for efficient processing
    - Includes options to skip preprocessing or customize model selection
