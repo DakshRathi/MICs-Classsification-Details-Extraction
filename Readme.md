@@ -23,6 +23,8 @@ The dataset consists of newspaper articles retrieved using Boolean search terms 
     │   ├── extraction_chain.py     # Details extraction from MIC articles
     │   ├── unified_pipeline.py     # Combined classification and extraction pipeline
     │   └── main.py                 # CLI entry point for running the pipeline
+    ├── 📁notebook                   # Directory for jupyter notebook
+    │   └── 📁ConfliBERT_Fine_Tuning.ipynb    # Fine-tuning ConfliBERT for classification
     ├── .gitignore
     ├── requirements.txt
     └── README.md
